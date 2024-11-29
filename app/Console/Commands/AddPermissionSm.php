@@ -7,7 +7,7 @@ use App\Models\Permission;
 use App\Models\User;
 use Illuminate\Console\Command;
 
-class AddPermission extends Command
+class AddPermissionSm extends Command
 {
     protected $signature = 'SM:permission:add {user_id} {label} {pretty_label} {description?}';
     protected $description = 'Aggiunge un permesso a un utente';

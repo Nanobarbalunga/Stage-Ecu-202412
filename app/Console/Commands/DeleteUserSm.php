@@ -5,7 +5,7 @@ namespace App\Console\Commands;
 use App\Models\User;
 use Illuminate\Console\Command;
 
-class DeleteUser extends Command
+class DeleteUserSm extends Command
 {
     protected $signature = 'SM:user:delete 
                             {user_identifier : ID o nome dell\'utente da eliminare}';

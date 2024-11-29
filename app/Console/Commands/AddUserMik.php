@@ -7,27 +7,17 @@ use Illuminate\Support\Facades\DB;
 use App\Models\User;
 
 
-class AddUser extends Command
+class AddUserMik extends Command
 {
-    /**
-     * The name and signature of the console command.
-     *
-     * @var string
-     */
+
     protected $signature = 'mik:app:add-user {name : Nome dell\'utente} 
                             {email : Email dell\'utente} 
                             {password : Password dell\'utente}';
 
-    /**
-     * The console command description.
-     *
-     * @var string
-     */
+
     protected $description = 'Aggiunge un nuovo utente al sistema.';
 
-    /**
-     * Execute the console command.
-     */
+
     public function handle()
     {
         $name = $this->argument('name');

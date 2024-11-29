@@ -6,7 +6,7 @@ use Illuminate\Console\Command;
 use App\Models\User;
 use App\Models\Permission;
 
-class ListPermessions extends Command
+class ListPermessionsMik extends Command
 {
     /**
      * The name and signature of the console command.

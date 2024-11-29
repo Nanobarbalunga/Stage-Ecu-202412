@@ -6,7 +6,7 @@ use App\Models\User;
 use App\Models\Permission;
 use Illuminate\Console\Command;
 
-class ListPermissions extends Command
+class ListPermissionsSm extends Command
 {
     protected $signature = 'SM:permissions:list 
     {user_identifier? : ID o nome dell\'utente per mostrare i permessi} 

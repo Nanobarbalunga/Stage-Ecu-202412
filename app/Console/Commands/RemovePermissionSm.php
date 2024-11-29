@@ -5,7 +5,7 @@ namespace App\Console\Commands;
 use App\Models\Permission;
 use Illuminate\Console\Command;
 
-class RemovePermission extends Command
+class RemovePermissionSm extends Command
 {
     protected $signature = 'SM:permission:remove {permission_id}';
     protected $description = 'Rimuove un permesso specifico tramite ID';

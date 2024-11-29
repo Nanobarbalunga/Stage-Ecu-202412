@@ -5,7 +5,7 @@ namespace App\Console\Commands;
 use App\Models\User;
 use Illuminate\Console\Command;
 
-class CreateUser extends Command
+class CreateUserSm extends Command
 {
     protected $signature = 'SM:user:create 
                             {name : Il nome completo dell\'utente}
