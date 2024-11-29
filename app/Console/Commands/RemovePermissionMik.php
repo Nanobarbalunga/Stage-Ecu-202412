@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use App\Models\Permission;
 use App\Models\User;
 
-class RemovePermission extends Command
+class RemovePermissionMik extends Command
 {
     /**
      * The name and signature of the console command.

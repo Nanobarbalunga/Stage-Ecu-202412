@@ -9,10 +9,12 @@ class Kernel extends ConsoleKernel
 {
 
     protected $commands = [
-        \App\Console\Commands\SelectAllPermissions::class,
-         \App\Console\Commands\CreateUser::class,
-         \App\Console\Commands\DeleteUser::class,
-         \App\Console\Commands\EditUser::class,
+        \App\Console\Commands\SelectAllPermissionsSm::class,
+         \App\Console\Commands\CreateUserSm::class,
+         \App\Console\Commands\DeleteUserSm::class,
+         \App\Console\Commands\EditUserSm::class,
+         \App\Console\Commands\ListPermessionsMik::class,
+         \App\Console\Commands\AddUserMik::class,
     ];
 
 

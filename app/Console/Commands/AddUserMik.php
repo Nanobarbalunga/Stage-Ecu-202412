@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\DB;
 use App\Models\User;
 
 
-class AddUser extends Command
+class AddUserMik extends Command
 {
 
     protected $signature = 'mik:app:add-user {name : Nome dell\'utente} 

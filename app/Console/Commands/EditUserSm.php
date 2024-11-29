@@ -5,7 +5,7 @@ namespace App\Console\Commands;
 use App\Models\User;
 use Illuminate\Console\Command;
 
-class EditUser extends Command
+class EditUserSm extends Command
 {
     protected $signature = 'SM:user:edit 
                             {user_identifier : ID o nome dell\'utente da modificare} 

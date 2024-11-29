@@ -5,7 +5,7 @@ namespace App\Console\Commands;
 use App\Models\Permission;
 use Illuminate\Console\Command;
 
-class SelectAllPermissions extends Command
+class SelectAllPermissionsSm extends Command
 {
     protected $signature = 'SM:permissions:select_all';
     protected $description = 'Mostra tutti i permessi di tutti gli utenti nel sistema';
