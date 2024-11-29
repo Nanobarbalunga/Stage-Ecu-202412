@@ -27,9 +27,9 @@ class RouteServiceProvider extends ServiceProvider
                 Route::middleware('api')
                 ->prefix('api/stagers')
                 ->group(function(){
-                    include base_path('routes/api/sm_api.php');
-                    include base_path('routes/api/man_api.php');
-                    include base_path('routes/api/mik_api.php');
+                    include base_path('routes/sm_api.php');
+                    // include base_path('routes/man_api.php');
+                    include base_path('routes/mik_api.php');
                 });
 
             Route::middleware('web')
