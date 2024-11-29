@@ -15,7 +15,7 @@ class RemovePermission extends Command
      *
      * @var string
      */
-    protected $signature = 'mik:app:remove-permission {user_id : ID dell\'utente} 
+    protected $signature = 'mik:app:remove-permission {user_id : ID dell\'utente}
                             {label : Etichetta del permesso da rimuovere}';
 
     /**

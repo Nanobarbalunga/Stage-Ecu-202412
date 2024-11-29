@@ -14,9 +14,9 @@ class AddPermission extends Command
      *
      * @var string
      */
-    protected $signature = 'mik:app:add-permission  {user_id : ID dell\'utente} 
-                                                {label : Etichetta del permesso} 
-                                                {pretty_label : Versione leggibile} 
+    protected $signature = 'mik:app:add-permission  {user_id : ID dell\'utente}
+                                                {label : Etichetta del permesso}
+                                                {pretty_label : Versione leggibile}
                                                 {description? : Descrizione opzionale}';
 
     /**
@@ -51,6 +51,7 @@ class AddPermission extends Command
 
         $this->info('Permesso aggiunto con successo: ' . $permission->label);
         return Command::SUCCESS;
-    
+
     }
+
 }
